@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
+  *{
+  margin:0;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+body{
+    background: linear-gradient(to right,rgb(236, 0, 165) ,rgb(46, 172, 250) );
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    padding: 8px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 4px;
+
+}
+input{
+    height: 60px;
+    width: 60px;
+    padding : 0;
+    border :none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+.color1::-webkit-color-swatch{
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.color2::-webkit-color-swatch{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+h3{
+    padding: 4px;
+}
